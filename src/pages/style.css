@@ -1,0 +1,50 @@
+/* ============= Login CSS ============= */
+.mainLoginPage {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/login.jpg);
+  }
+  .mainLoginPage .loginDiv .loginPage {
+    background-color: #ffffff;
+    box-shadow: 0 0 20px rgba(23, 30, 39, 0.431);
+    padding: 70px 34px;
+    border-radius: 30px;
+    width: 30% !important;
+  }
+  @media screen and (max-width: 992px) {
+    .mainLoginPage .loginDiv .loginPage {
+      width: 60% !important;
+      padding: 40px 25px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .mainLoginPage .loginDiv .loginPage {
+      width: 45% !important;
+      padding: 40px 25px;
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .mainLoginPage .loginDiv .loginPage {
+      width: 90% !important;
+      padding: 30px 20px;
+    }
+  }
+  .mainLoginPage .loginDiv .loginPage .welComeTitle {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .mainLoginPage .loginDiv .loginPage .welComeTitle {
+      font-size: 17px;
+    }
+  }
+  .mainLoginPage .loginDiv .loginPage .title {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .mainLoginPage .loginDiv .loginPage .title {
+      font-size: 17px;
+    }
+  }
+  

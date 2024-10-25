@@ -1,0 +1,54 @@
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5); /* แก้ไขความโปร่งใส */
+    z-index: 9999;
+  }
+  
+  .dialog-content {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    max-height: 80vh; /* จำกัดความสูงสูงสุด */
+    overflow-y: auto; /* เปิดการเลื่อนเมื่อความสูงเกิน */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .dialog-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+  }
+  
+  .dialog-footer .btn {
+    width: 48%; /* ให้ปุ่มมีขนาดเท่ากัน */
+  }
+  
